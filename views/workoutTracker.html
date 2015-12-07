@@ -1,0 +1,43 @@
+<!DOCTYPE html>	
+	<html>
+		<head>
+			<meta charset="UTF-8">
+			<title>
+				Workout Tracker
+			</title>
+			<link rel="stylesheet" type="text/css" href="/views/styleSheet.css">
+		</head>
+		<body>
+			<form id="newEx">
+				<fieldset>
+					<label>Track New Exercise</label></br>
+					Exercise: <input type="text" id="exercise"></br>
+					Reps: <input type="number" id="reps"></br>
+					Weight Used: <input type="number" id="weight"></br>
+					Date: <input type="date" id="date"></br>
+					<input type="radio" id="lbs" value="1">Lbs
+					<input type="radio" id="kgs" value="0">Kgs</br>
+					<input type="submit" id="subEx">
+				</fieldset>
+			</form>
+			<table>
+				<tr>
+					<th>Exercise</th>
+					<th>Reps</th>
+					<th>Weight</th>
+					<th>Date</th>
+					<th>lbs</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td><button type="submit" name="delete">Delete Exercise</button></td>
+				</tr>
+			</table>
+			<script language="javascript" type="text/javascript" src="/views/functions.js"></script>
+		</body>
+	</html>

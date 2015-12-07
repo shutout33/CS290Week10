@@ -1,0 +1,19 @@
+{
+  "name": "getAndPost",
+  "version": "1.0.0",
+  "description": "Get and Post assignment for CS 290",
+  "main": "getAndPost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "OSU",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.2",
+    "express-handlebars": "^2.0.1",
+    "express-session": "^1.11.3",
+    "mysql": "^2.8.0",
+    "node-static": "^0.7.7"
+  }
+}
